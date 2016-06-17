@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+.inside {
+	float: right;
+	background-color: blue;
+	border: 1px solid black;
+	font-weight: bold;
+	
+	}
+
+/* Large devices */
+@media (min-width: 1200px){
+
+.lote {
+	background-color: grey;
+	height: 200px;
+	border: 1px solid black; 
+	width: 33.33%;
+	overflow: auto;
+	float: left;
+	}
+}
+/*medium devices */
+@media (min-width: 768px) and (max-width: 1199px){
+
+.lote {
+	background-color: grey;
+	height: 200px;
+	border: 1px solid black; 
+	width: 50%;
+	overflow: auto;
+	float: left;
+	}
+}
+/*small devices*/
+@media (max-width: 767px){
+
+.lote {
+	background-color: grey;
+	height: 200px;
+	border: 1px solid black; 
+	width: 375px;
+	overflow: auto;
+	float: left;
+	}
+
+}
