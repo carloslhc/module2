@@ -11,7 +11,16 @@
 	font-weight: bold;
 	
 	}
+#all{
 
+	width: 100%;
+
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 15px;
+}
 /* Large devices */
 @media (min-width: 1200px){
 
@@ -19,9 +28,11 @@
 	background-color: grey;
 	height: 200px;
 	border: 1px solid black; 
-	width: 33.33%;
+	width: 32.50%;
 	overflow: auto;
 	float: left;
+	margin: 5px;
+	padding: 1px;
 	}
 }
 /*medium devices */
@@ -31,21 +42,39 @@
 	background-color: grey;
 	height: 200px;
 	border: 1px solid black; 
-	width: 50%;
+	width: 47%;
 	overflow: auto;
 	float: left;
+	margin: 5px;
+	padding: 1px;
 	}
+
+#abajo {
+
+	background-color: grey;
+	height: 200px;
+	border: 1px solid black; 
+	width: 95%;
+	overflow: auto;
+	float: left;
+	margin: 5px;
+	padding: 1px;
+	
+	}
+
 }
 /*small devices*/
 @media (max-width: 767px){
 
 .lote {
 	background-color: grey;
-	height: 200px;
+	height: 220px;
 	border: 1px solid black; 
-	width: 375px;
+	width: 315px;
 	overflow: auto;
-	float: left;
+	margin: 5px;
+	padding: 1px
+	
 	}
 
 }
